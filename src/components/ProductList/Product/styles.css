@@ -1,0 +1,51 @@
+.vitrine__produto{
+    width: 300px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+    margin: 0px 20px 20px 0px;
+}
+
+.vitrine__produto:hover{
+    border: 2px solid #333333;
+}
+
+.imagem{
+    width: 300px;
+    height: 150px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    width: 150px;
+}
+
+.vitrine__produto h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.categoria{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    margin-left: 20px;
+}
+
+.preco {
+    font-weight: 600;
+    font-size: 14px;
+    color: #27AE60;
+    margin-left: 20px;
+}
+
+.vitrine__produto button{
+    margin: 0px 0px 20px 20px;
+}

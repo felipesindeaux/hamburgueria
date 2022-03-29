@@ -1,0 +1,76 @@
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+.limitador{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.limitador img{
+    cursor: pointer;
+}
+
+.pesquisa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa input{
+    padding: 0px 10px 0px 15px;
+    width: 260px;
+    height: 60px;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.pesquisa input::placeholder{
+    color: #E0E0E0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pesquisa button{
+    position: relative;
+    left: 80px;
+    bottom: 52px;
+}
+
+@media(min-width: 800px) {
+
+    header{
+        height: 80px;
+    }
+
+    .limitador img{
+        margin-left: 55px;
+    }
+
+    .pesquisa{
+        display: block;
+        width: auto;
+    }
+
+    .pesquisa input{
+        width: 365px;
+    }
+
+    .pesquisa button{
+        left: -113px;
+        bottom: 0px;
+    }
+
+    .limitador{
+        flex-direction: row;
+    }
+}

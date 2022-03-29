@@ -1,0 +1,14 @@
+.buttonComponent{
+    background-color: #27AE60;
+    padding: 0px 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.buttonComponent:hover{
+    background-color: #93D7AF;
+    cursor: pointer;
+}

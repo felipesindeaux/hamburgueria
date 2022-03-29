@@ -1,0 +1,14 @@
+.vitrine{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    max-width: 90vw;
+    flex-shrink: 0;
+}
+
+@media(min-width: 1450px){
+    .vitrine{
+        flex-wrap: wrap;
+        width: 1000px;
+    }
+}

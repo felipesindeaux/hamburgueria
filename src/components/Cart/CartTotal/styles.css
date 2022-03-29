@@ -1,0 +1,45 @@
+.cart__total{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
+    height: 145px;
+    background-color: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    border-top: 2px solid #E0E0E0;
+    
+}
+
+.cartTotal__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartTotal__total{
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+}
+
+.cartTotal__preco__total{
+    color: #828282;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart__total button{
+    background-color: #E0E0E0;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    color: #828282;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.cart__total button:hover{
+    background-color: #828282;
+    color: #E0E0E0;
+    cursor: pointer;
+}
